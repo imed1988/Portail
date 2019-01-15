@@ -140,5 +140,7 @@ namespace Portail.Controllers
             Session.Abandon();
             return RedirectToAction("Index");
         }
+
+
     }
 }
